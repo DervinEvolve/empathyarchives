@@ -1,11 +1,9 @@
 "use client";
 
 import { useLayoutEffect, useState } from "react";
-import HumeLogo from "./logos/Hume";
 import { Button } from "./ui/button";
 import { Moon, Sun } from "lucide-react";
 import Github from "./logos/GitHub";
-import pkg from '@/package.json';
 
 export const Nav = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -32,14 +30,15 @@ export const Nav = () => {
         "px-4 py-2 flex items-center h-14 z-50 bg-card border-b border-border"
       }
     >
-      <div>
-        <HumeLogo className={"h-5 w-auto"} />
+      <div className="flex flex-col">
+        <h1 className="text-lg font-semibold leading-tight">Empathy Archives</h1>
+        <p className="text-xs text-muted-foreground">Your Research Assistant</p>
       </div>
       <div className={"ml-auto flex items-center gap-1"}>
         <Button
           onClick={() => {
             window.open(
-              pkg.homepage,
+              "https://github.com/DervinEvolve/empathyarchives",
               "_blank",
               "noopener noreferrer"
             );
