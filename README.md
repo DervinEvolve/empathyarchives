@@ -1,4 +1,4 @@
-iv align="center">
+<div align="center">
   <h1>Empathy Archives</h1>
   <p><em>Your Historical Research Assistant</em></p>
 </div>
