@@ -1,25 +1,28 @@
-<div align="center">
-  <img src="https://storage.googleapis.com/hume-public-logos/hume/hume-banner.png">
-  <h1>EVI Next.js App Router Example</h1>
+iv align="center">
+  <h1>Empathy Archives</h1>
+  <p><em>Your Historical Research Assistant</em></p>
 </div>
 
-![preview.png](preview.png)
+![Empathy Archives Demo](empathyarchives.gif)
 
 ## Overview
 
-This project features a sample implementation of Hume's [Empathic Voice Interface](https://hume.docs.buildwithfern.com/docs/empathic-voice-interface-evi/overview) using Hume's React SDK. Here, we have a simple EVI that uses the Next.js App Router.
+Empathy Archives is an innovative voice-to-voice interface designed for students and educators to engage in intuitive conversations about history. This project was developed as a submission for Microsoft's Hackathon, leveraging the power of Hume AI's expression detection models to create a more empathetic and responsive learning experience.
 
-## Project deployment
+## Features
 
-Click the button below to deploy this example project with Vercel:
+- **Voice-to-Voice Interaction**: Engage in natural, spoken conversations about historical topics.
+- **Emotion-Aware Responses**: The AI adapts its output based on the user's tone, creating a more personalized interaction.
+- **Primary Source Integration**: Access and discuss a vast array of historical primary sources.
+- **Real-time Transcription**: View a live transcription of the conversation.
+- **Tone Analysis**: Displays the top three detected tones in the user's voice output.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhumeai%2Fhume-evi-next-js-starter&env=HUME_API_KEY,HUME_CLIENT_SECRET)
+## How It Works
 
-Below are the steps to completing deployment:
+1. **User Input**: Speak your question or topic of interest related to history.
+2. **Voice Analysis**: Hume AI's expression detection models analyze your tone and emotion.
+3. **Contextual Search**: The AI searches for relevant primary sources and historical information.
+4. **Tailored Response**: Based on the analysis and search results, the AI formulates a response.
+5. **Expressive Output**: The response is delivered via voice, with tone and pacing adjusted to match the context.
+6. **Visual Feedback**: A transcription appears on screen, highlighting the detected tones.
 
-1. Create a Git Repository for your project.
-2. Provide the required environment variables. To get your API key and Client Secret key, log into the portal and visit the [API keys page](https://beta.hume.ai/settings/keys).
-
-## Support
-
-If you have questions, require assistance, or wish to engage in discussions pertaining to this starter template, [please reach out to us on Discord](https://link.hume.ai/discord).
