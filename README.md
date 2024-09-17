@@ -3,7 +3,7 @@
   <p><em>Your Historical Research Assistant</em></p>
 </div>
 
-![Empathy Archives Demo](empathyarchives.gif)
+![Empathy Archives Demo](public/empathyarchives.gif)
 
 ## Overview
 
