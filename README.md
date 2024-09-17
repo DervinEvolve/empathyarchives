@@ -1,9 +1,9 @@
 <div align="center">
   <h1>Empathy Archives</h1>
   <p><em>Your Historical Research Assistant</em></p>
-</div>
 
-![Empathy Archives Demo](public/empathyarchives.gif)
+  <img src="public/empathyarchives.gif" alt="Empathy Archives Demo" width="80%">
+</div>
 
 ## Overview
 
