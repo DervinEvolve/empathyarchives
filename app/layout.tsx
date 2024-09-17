@@ -7,7 +7,7 @@ import { cn } from "@/utils";
 
 export const metadata: Metadata = {
   title: "Empathy Archives",
-  description: "A Voice to Voice Historical Research Assistant that Analyzes Tone",
+  description: "A Voice to Voice Research Assistant that Analyzes Tone",
 };
 
 export default function RootLayout({
