@@ -32,7 +32,7 @@ export const Nav = () => {
     >
       <div className="flex flex-col">
         <h1 className="text-lg font-semibold leading-tight">Empathy Archives</h1>
-        <p className="text-xs text-muted-foreground">Your Historical Research Assistant</p>
+        <p className="text-xs text-muted-foreground">Voice to Voice Research Assistant</p>
       </div>
       <div className={"ml-auto flex items-center gap-1"}>
         <Button
